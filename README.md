@@ -1,4 +1,4 @@
-# To-Do List API (playground-todo-in-file)
+# To-Do List API (playground-todo)
 
 This project is a RESTful API for managing a To-Do List.
 
@@ -10,7 +10,20 @@ This project is a RESTful API for managing a To-Do List.
 - **Delete a to-do**: Remove a to-do item from the list.
 - **Versioning**: Supports versioning
 
+### Quick start
+Install dependencies:
+```sh
+npm i
+```
+
+To start the app:
+```sh
+npm run start
+```
+
 ### `v1` Endpoints
+
+**Postman Collection: [Todo List](https://www.postman.com/winter-desert-355385/workspace/publicworkspaces/collection/4321151-8f81709c-1935-40e8-aa76-d30735613151?action=share&creator=4321151)**
 
 #### Get all to-dos
 
@@ -24,7 +37,7 @@ This project is a RESTful API for managing a To-Do List.
 - **Body**:
   ```json
   {
-    "task": "your new task"
+    "task": "create your new task"
   }
   ```
 
