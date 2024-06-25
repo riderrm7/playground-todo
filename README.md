@@ -1,4 +1,4 @@
-# To-Do List API (playground-todo-in-file)
+# To-Do List API (playground-todo)
 
 This project is a RESTful API for managing a To-Do List.
 
